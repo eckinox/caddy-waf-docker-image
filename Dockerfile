@@ -1,4 +1,4 @@
-ARG CADDY_VERSION=2
+ARG CADDY_VERSION=2.7
 
 FROM caddy:${CADDY_VERSION}-builder-alpine AS symfony_caddy_builder
 
